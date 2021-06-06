@@ -20,10 +20,16 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.topbar h3 {
+.topbar h4 {
+    color: #fdfdfdc9;
+  margin-left: 10%;
   font-weight: bold;
 }
+.topbar ul {
+  margin-left: auto;
+}
 .topbar ul li a {
+    color: #fdfdfdc9!important;
   font-weight: bold;
 }
 .header .header-content {
@@ -33,11 +39,11 @@ body {
   transform: translate(-50%, -50%);
 }
 .header .header-content h3 {
-  color: white;
+  color: #fdfdfdc9;
   font-weight: bolder;
   margin-bottom: 0.5rem;
 }
-.header .header-content p{
-    color:white;
-    font-weight: bold;
+.header .header-content p {
+  color: #fdfdfdc9;
+  font-weight: bold;
 }
