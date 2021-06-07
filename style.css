@@ -92,20 +92,149 @@ body {
     rgb(251, 215, 134),
     rgb(247, 121, 125)
   );
-  width:50px;
-  height:30px;
-  z-index:-1;
+  width: 50px;
+  height: 30px;
+  z-index: -1;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 100px;
-  margin-top:-9px;
+  margin-top: -9px;
 }
 
-.company-logo img{
-  display:inline-block;
-max-width: 100px;
-margin:10px 30px 10px 50px;
-
-
+.company-logo img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px 30px 10px 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.06);
 }
 
-/* ----Top Parner Company CSS End--- */
+/* ----Top Partner Company CSS End--- */
+
+/* ---Job Update CSS Start --- */
+.update {
+  background: rgba(231, 227, 227, 0.329);
+  padding: 30px 30px;
+}
+.company-info {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.01);
+  margin-bottom: 30px;
+}
+.company-info h5 {
+  font-weight: bold;
+}
+.company-info i {
+  color: dodgerblue;
+  padding-left: 2px;
+}
+.company-info i span {
+  color: rgba(0, 0, 0, 0.863);
+  margin-left: 10px;
+  font-weight: 200;
+}
+.company-info p small span {
+  font-weight: bolder;
+  color: dodgerblue;
+}
+.company-info p .key-skills {
+  color: black;
+  font-weight: bold;
+  background-color: #c3c3c38c;
+  margin: 0px 2px;
+}
+.company-info a {
+  text-decoration: none;
+  color: black;
+  float: right;
+  background-color: #ece8e8;
+  padding: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.06);
+}
+.company-info .apply-btn {
+  background-color: black;
+  height: 40px;
+  margin: 5px 0px;
+}
+.company-info .btn {
+  float: right;
+  height: 40px;
+  color: white;
+  border: none !important;
+  border-radius: 0;
+  box-shadow: none !important;
+}
+/* ---Job Update CSS End --- */
+
+/* ---Pagination CSS Start--- */
+.page {
+  margin-top: 20px;
+}
+.pagination li a {
+  border: none !important;
+  box-shadow: none !important;
+  color: black;
+}
+
+/* ---Pagination CSS End--- */
+
+/* ---Job Vacancy CSS Start --- */
+.job-vacancy {
+  margin-top: 30px;
+  padding: 20px 50px;
+}
+.job-vacancy .row .col-style {
+  width: 20%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1%;
+  margin: 2%;
+}
+.col-style i {
+  font-size: 1.5rem;
+}
+.col-style i span {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.col-style p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ---Job Vacancy CSS End --- */
+
+/* ---Mobole App CSS Start --- */
+.app {
+  background: black;
+  margin-top: 30px;
+  padding: 40px 50px;
+  /* max-height: 100vh; */
+}
+.app h3 {
+  color: white;
+  font-weight: bold;
+}
+.app .row {
+  margin-top: 50px;
+}
+.app img {
+  width: 70%;
+  height: 70%;
+}
+/* ---Mobole App CSS End --- */
+
+/* ---Footer CSS Start--- */
+.footer {
+  margin-top: 50px;
+}
+.footer h2 {
+  font-weight: bolder;
+}
+.footer .container p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* ---Footer CSS End--- */
