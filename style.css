@@ -295,6 +295,11 @@ body {
   margin-left: 35px;
   }
 }
+@media all and (max-width:600px){
+  .app img{
+  margin-left: 50px;
+  }
+}
 /* ---Mobole App CSS End --- */
 
 /* ---Footer CSS Start--- */
