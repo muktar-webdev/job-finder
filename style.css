@@ -21,7 +21,7 @@ body {
   background-attachment: fixed;
 }
 .topbar h4 {
-    color: #fdfdfdc9;
+  color: #fdfdfdc9;
   margin-left: 10%;
   font-weight: bold;
 }
@@ -29,7 +29,7 @@ body {
   margin-left: auto;
 }
 .topbar ul li a {
-    color: #fdfdfdc9!important;
+  color: #fdfdfdc9 !important;
   font-weight: bold;
 }
 .header .header-content {
@@ -47,3 +47,65 @@ body {
   color: #fdfdfdc9;
   font-weight: bold;
 }
+
+#search-portal {
+  padding: 30px 0px;
+  background: rgba(7, 7, 7, 0.829);
+  margin: -50px 5% 50px;
+}
+.from-item {
+}
+.search-portal .form-control {
+  width: 250px;
+  display: inline-flex;
+  margin: 10px 50px;
+  border: none !important;
+  border-radius: 0;
+  box-shadow: none !important;
+}
+.search-portal .btn-secondary {
+  display: inline-flex;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+@media all and (max-width: 600px) {
+  .search-portal .btn-secondary {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* ----Top Parner Company CSS Start--- */
+.partner {
+  padding: 20px 20px;
+}
+.partner h3 {
+  padding: 50px;
+}
+.partner h3::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgb(198, 255, 221),
+    rgb(251, 215, 134),
+    rgb(247, 121, 125)
+  );
+  width:50px;
+  height:30px;
+  z-index:-1;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 100px;
+  margin-top:-9px;
+}
+
+.company-logo img{
+  display:inline-block;
+max-width: 100px;
+margin:10px 30px 10px 50px;
+
+
+}
+
+/* ----Top Parner Company CSS End--- */
