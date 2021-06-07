@@ -109,6 +109,7 @@ body {
 /* ----Top Parner Company CSS Start--- */
 .partner {
   max-width: 100%;
+  min-height: 100vh;
   box-sizing: border-box;
   padding: 20px 20px;
   margin-top: -250px;
