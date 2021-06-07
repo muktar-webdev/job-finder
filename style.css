@@ -5,6 +5,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
 }
 #header {
   width: 100%;
@@ -108,7 +109,7 @@ body {
 
 /* ----Top Parner Company CSS Start--- */
 .partner {
-  max-width: 100%;
+  width: 100vw;
   min-height: 100vh;
   box-sizing: border-box;
   padding: 20px 20px;
